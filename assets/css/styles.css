@@ -3,61 +3,61 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
-  
-  body {
+}
+
+body {
     font-family: 'Poppins', sans-serif;
     line-height: 1.6;
     background: #fdfdfd;
     color: #333;
     padding: 0 1rem;
-  }
-  
-  /* === Header === */
-  header {
+}
+
+/* === Header === */
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1.5rem 1rem;
     background-color: #1c1f26;
     color: white;
-  }
-  
-  .logo {
+}
+
+.logo {
     font-size: 1.5rem;
     font-weight: bold;
-  }
-  
-  .navbar a {
+}
+
+.navbar a {
     color: white;
     margin-left: 1rem;
     text-decoration: none;
-  }
-  
-  .navbar a:hover {
+}
+
+.navbar a:hover {
     text-decoration: underline;
-  }
-  
-  /* === Hero Section === */
-  .hero {
+}
+
+/* === Hero Section === */
+.hero {
     text-align: center;
     padding: 5rem 1rem;
     background: #e8f0f5;
     border-radius: 1rem;
     margin-top: 2rem;
-  }
-  
-  .hero h1 {
+}
+
+.hero h1 {
     font-size: 2.5rem;
     margin-bottom: 1rem;
-  }
-  
-  .hero p {
+}
+
+.hero p {
     font-size: 1.2rem;
     margin-bottom: 2rem;
-  }
-  
-  .cta-buttons .btn {
+}
+
+.cta-buttons .btn {
     display: inline-block;
     padding: 0.75rem 1.5rem;
     margin: 0.5rem;
@@ -65,57 +65,109 @@
     color: white;
     text-decoration: none;
     border-radius: 5px;
-  }
-  
-  .cta-buttons .btn-secondary {
+}
+
+.cta-buttons .btn-secondary {
     background: #4a5568;
-  }
-  
-  /* === Skills Section === */
-  .skills {
+}
+
+/* === Skills Section === */
+.skills {
     margin: 4rem auto;
     max-width: 800px;
     text-align: center;
-  }
-  
-  .skills-grid {
+}
+
+.skills-grid {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 1rem;
     margin-top: 1rem;
-  }
-  
-  .skills-grid div {
+}
+
+.skills-grid div {
     background: #f3f4f6;
     padding: 1rem 2rem;
     border-radius: 5px;
     font-weight: 500;
-  }
-  
-  /* === Footer === */
-  footer {
+}
+
+/* === About Page Styling === */
+.about {
+    max-width: 900px;
+    margin: 4rem auto;
+    padding: 0 1rem;
+    text-align: center;
+}
+
+.about h1 {
+    font-size: 2.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.about p {
+    font-size: 1.1rem;
+    margin-bottom: 3rem;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-info {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.bio,
+.skills-summary {
+    flex: 1 1 300px;
+    text-align: left;
+    background-color: #f3f4f6;
+    padding: 1.5rem;
+    border-radius: 8px;
+}
+
+.skills-summary ul {
+    list-style: disc;
+    padding-left: 1.5rem;
+    margin-top: 1rem;
+}
+
+.skills-summary li {
+    margin-bottom: 0.5rem;
+}
+
+/* Highlight active link */
+.navbar .active {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/* === Footer === */
+footer {
     text-align: center;
     padding: 2rem 0;
     background: #1c1f26;
     color: white;
     margin-top: 3rem;
-  }
-  
-  /* === Responsive Adjustments === */
-  @media (max-width: 768px) {
+}
+
+/* === Responsive Adjustments === */
+@media (max-width: 768px) {
     .hero h1 {
-      font-size: 2rem;
+        font-size: 2rem;
     }
-  
+
     .navbar {
-      flex-direction: column;
-      align-items: flex-start;
+        flex-direction: column;
+        align-items: flex-start;
     }
-  
+
     .skills-grid {
-      flex-direction: column;
-      gap: 0.5rem;
+        flex-direction: column;
+        gap: 0.5rem;
     }
-  }
-  
+}
