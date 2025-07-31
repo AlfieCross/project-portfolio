@@ -146,6 +146,68 @@ header {
     font-weight: bold;
 }
 
+/* === Projects Page Styling === */
+.projects {
+    max-width: 1000px;
+    margin: 4rem auto;
+    padding: 0 1rem;
+    text-align: center;
+  }
+  
+  .projects h1 {
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .projects p {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .project-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .project-card {
+    background-color: #f3f4f6;
+    border-radius: 10px;
+    padding: 1.5rem;
+    width: 300px;
+    text-align: left;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  .project-card img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+  }
+  
+  .project-card h2 {
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .project-links a {
+    display: inline-block;
+    margin-top: 0.5rem;
+    margin-right: 1rem;
+    color: #2c7a7b;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .project-links a:hover {
+    text-decoration: underline;
+  }
+  
+
 /* === Footer === */
 footer {
     text-align: center;
