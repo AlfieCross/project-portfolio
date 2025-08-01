@@ -10,7 +10,6 @@ body {
     line-height: 1.6;
     background: #fdfdfd;
     color: #333;
-    padding: 0 1rem;
 }
 
 /* === Header === */
@@ -268,7 +267,6 @@ header {
 .contact-form button:hover {
     background-color: #245f61;
 }
-
 
 /* === Footer === */
 footer {
