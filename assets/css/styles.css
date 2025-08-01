@@ -1,323 +1,323 @@
 /* === Global Reset and Font === */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
-    line-height: 1.6;
-    background: #fdfdfd;
-    color: #333;
+  font-family: "Poppins", sans-serif;
+  line-height: 1.6;
+  background: #fdfdfd;
+  color: #333;
 }
 
 /* === Header === */
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1.5rem 1rem;
-    background-color: #1c1f26;
-    color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 1rem;
+  background-color: #1c1f26;
+  color: white;
 }
 
 .logo {
-    font-size: 1.5rem;
-    font-weight: bold;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
 .navbar a {
-    color: white;
-    margin-left: 1rem;
-    text-decoration: none;
+  color: white;
+  margin-left: 1rem;
+  text-decoration: none;
 }
 
 .navbar a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 /* === Hero Section === */
 .hero {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 80vh;
-    padding: 4rem 1rem;
-    background: linear-gradient(to right, #f8fafc, #e2f0f6);
-    text-align: center;
-    border-radius: 1rem;
-    margin-top: 2rem;
-  }
-  
-  .hero-content h1 {
-    font-size: 3rem;
-    margin-bottom: 1rem;
-  }
-  
-  .hero-content .highlight {
-    color: #2c7a7b;
-    font-weight: bold;
-  }
-  
-  .hero-content p {
-    font-size: 1.25rem;
-    margin-bottom: 2rem;
-    color: #555;
-  }
-  
-  /* === Buttons === */
-  .cta-buttons .btn {
-    background-color: #2c7a7b;
-    color: white;
-    padding: 0.85rem 1.75rem;
-    border-radius: 6px;
-    font-size: 1rem;
-    margin: 0.5rem;
-    transition: background 0.3s, transform 0.2s;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
-    text-decoration: none;
-  }
-  
-  .cta-buttons .btn:hover {
-    background-color: #245f61;
-    transform: translateY(-2px);
-  }
-  
-  .btn-secondary {
-    background-color: #4a5568;
-  }
-  
-  .btn-secondary:hover {
-    background-color: #2d3748;
-  }
-  
-  /* === Skills Section === */
-  .skills {
-    margin: 4rem auto;
-    max-width: 900px;
-    text-align: center;
-  }
-  
-  .skills h2 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-  }
-  
-  .skills-grid {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-    justify-content: center;
-    margin-top: 1rem;
-  }
-  
-  .skills-grid div {
-    background-color: #f1f5f9;
-    padding: 1rem 2rem;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
-    font-weight: 500;
-  }
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+  padding: 4rem 1rem;
+  background: linear-gradient(to right, #f8fafc, #e2f0f6);
+  text-align: center;
+  border-radius: 1rem;
+  margin-top: 2rem;
+}
 
-/* === About Page Styling === */
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero-content .highlight {
+  color: #2c7a7b;
+  font-weight: bold;
+}
+
+.hero-content p {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+  color: #555;
+}
+
+/* === Buttons === */
+.cta-buttons .btn {
+  background-color: #2c7a7b;
+  color: white;
+  padding: 0.85rem 1.75rem;
+  border-radius: 6px;
+  font-size: 1rem;
+  margin: 0.5rem;
+  transition: background 0.3s, transform 0.2s;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+  text-decoration: none;
+}
+
+.cta-buttons .btn:hover {
+  background-color: #245f61;
+  transform: translateY(-2px);
+}
+
+.btn-secondary {
+  background-color: #4a5568;
+}
+
+.btn-secondary:hover {
+  background-color: #2d3748;
+}
+
+/* === Skills Section === */
+.skills {
+  margin: 4rem auto;
+  max-width: 900px;
+  text-align: center;
+}
+
+.skills h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.skills-grid div {
+  background-color: #f1f5f9;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  font-weight: 500;
+}
+
+/* === About Page Layout === */
 .about {
-    max-width: 900px;
-    margin: 4rem auto;
-    padding: 0 1rem;
-    text-align: center;
+  max-width: 1000px;
+  margin: 4rem auto;
+  padding: 0 1rem;
+  text-align: center;
 }
 
 .about h1 {
-    font-size: 2.2rem;
-    margin-bottom: 1.5rem;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
 }
 
-.about p {
-    font-size: 1.1rem;
-    margin-bottom: 3rem;
-    max-width: 700px;
-    margin-left: auto;
-    margin-right: auto;
+.about .intro {
+  font-size: 1.2rem;
+  max-width: 750px;
+  margin: 0 auto 3rem auto;
+  color: #555;
 }
 
-.about-info {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    gap: 2rem;
+.about-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
 }
 
-.bio,
-.skills-summary {
-    flex: 1 1 300px;
-    text-align: left;
-    background-color: #f3f4f6;
-    padding: 1.5rem;
-    border-radius: 8px;
+.about-box {
+  background-color: #f1f5f9;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  text-align: left;
+  flex: 1 1 400px;
 }
 
-.skills-summary ul {
-    list-style: disc;
-    padding-left: 1.5rem;
-    margin-top: 1rem;
+.about-box h2 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
 }
 
-.skills-summary li {
-    margin-bottom: 0.5rem;
+.about-box p,
+.about-box li {
+  font-size: 1.05rem;
+  line-height: 1.6;
 }
 
-/* Highlight active link */
-.navbar .active {
-    text-decoration: underline;
-    font-weight: bold;
+.about-box ul {
+  list-style: disc;
+  padding-left: 1.5rem;
 }
 
 /* === Projects Page Styling === */
 .projects {
-    max-width: 1000px;
-    margin: 4rem auto;
-    padding: 0 1rem;
-    text-align: center;
+  max-width: 1000px;
+  margin: 4rem auto;
+  padding: 0 1rem;
+  text-align: center;
 }
 
 .projects h1 {
-    font-size: 2.2rem;
-    margin-bottom: 1rem;
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
 }
 
 .projects p {
-    font-size: 1.1rem;
-    margin-bottom: 2rem;
-    max-width: 700px;
-    margin-left: auto;
-    margin-right: auto;
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .project-grid {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
 }
 
 .project-card {
-    background-color: #f3f4f6;
-    border-radius: 10px;
-    padding: 1.5rem;
-    width: 300px;
-    text-align: left;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  background-color: #f3f4f6;
+  border-radius: 10px;
+  padding: 1.5rem;
+  width: 300px;
+  text-align: left;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
 }
 
 .project-card img {
-    width: 100%;
-    border-radius: 5px;
-    margin-bottom: 1rem;
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 1rem;
 }
 
 .project-card h2 {
-    font-size: 1.4rem;
-    margin-bottom: 0.5rem;
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
 }
 
 .project-links a {
-    display: inline-block;
-    margin-top: 0.5rem;
-    margin-right: 1rem;
-    color: #2c7a7b;
-    text-decoration: none;
-    font-weight: bold;
+  display: inline-block;
+  margin-top: 0.5rem;
+  margin-right: 1rem;
+  color: #2c7a7b;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 .project-links a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 /* === Contact Page Styling === */
 .contact {
-    max-width: 700px;
-    margin: 4rem auto;
-    padding: 0 1rem;
-    text-align: center;
+  max-width: 700px;
+  margin: 4rem auto;
+  padding: 0 1rem;
+  text-align: center;
 }
 
 .contact h1 {
-    font-size: 2.2rem;
-    margin-bottom: 1rem;
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
 }
 
 .contact p {
-    font-size: 1.1rem;
-    margin-bottom: 2rem;
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
 }
 
 .contact-info p {
-    margin-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 
 .contact-info a {
-    color: #2c7a7b;
-    text-decoration: none;
+  color: #2c7a7b;
+  text-decoration: none;
 }
 
 .contact-info a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 /* === Contact Form === */
 .contact-form {
-    margin-top: 2rem;
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
 .contact-form input,
 .contact-form textarea {
-    padding: 0.75rem;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-family: inherit;
-    font-size: 1rem;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: inherit;
+  font-size: 1rem;
 }
 
 .contact-form button {
-    background-color: #2c7a7b;
-    color: white;
-    border: none;
-    padding: 0.75rem;
-    border-radius: 5px;
-    font-size: 1rem;
-    cursor: pointer;
+  background-color: #2c7a7b;
+  color: white;
+  border: none;
+  padding: 0.75rem;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
 }
 
 .contact-form button:hover {
-    background-color: #245f61;
+  background-color: #245f61;
 }
 
 /* === Footer === */
 footer {
-    text-align: center;
-    padding: 2rem 0;
-    background: #1c1f26;
-    color: white;
-    margin-top: 3rem;
+  text-align: center;
+  padding: 2rem 0;
+  background: #1c1f26;
+  color: white;
+  margin-top: 3rem;
 }
 
-/* === Responsive Adjustments === */
+/* === Mobile Adjustments === */
 @media (max-width: 768px) {
-    .hero h1 {
-        font-size: 2rem;
-    }
+  .hero-content h1 {
+    font-size: 2.2rem;
+  }
 
-    .navbar {
-        flex-direction: column;
-        align-items: flex-start;
-    }
+  .skills-grid,
+  .about-grid {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+  }
 
-    .skills-grid {
-        flex-direction: column;
-        gap: 0.5rem;
-    }
+  .about h1 {
+    font-size: 2rem;
+  }
 }
